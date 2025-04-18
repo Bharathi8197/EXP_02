@@ -1,10 +1,13 @@
 Exp 2 : Perform Exploratory Data Analysis (EDA) with Email Dataset
+
 AIM:
 To perform Exploratory Data Analysis (EDA) on an email dataset by importing it into a Pandas DataFrame, visualizing it, and extracting meaningful insights.
+
 EQUIPMENTS REQUIRED:
 Python 3.x
 Jupyter Notebook / Google Colab / VS Code
 Libraries: pandas, matplotlib, seaborn
+
 ALGORITHM:
 Import the required libraries.
 Load the dataset from a URL.
@@ -14,8 +17,8 @@ Perform basic statistical analysis.
 Visualize top email senders.
 Time-based analysis if a timestamp is present.
 
-Program:
 
+Program:
 # Step 1: Import required libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -63,7 +66,7 @@ if 'timestamp' in df.columns:
     plt.show()
 
 
-EXPECTED OUTPUT:
+**EXPECTED OUTPUT:**
 Dataset shape and column summary
 Top 10 email senders printed
 Bar chart showing top senders
